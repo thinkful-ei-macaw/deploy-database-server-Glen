@@ -1,3 +1,23 @@
+.env file info
+
+NODE_ENV=development
+PORT=8080
+API_TOKEN="secret-token"
+
+DATABASE_URL="postgresql://dunder_mifflin:123@localhost/noteful"
+TEST_DATABASE_URL="postgresql://dunder_mifflin:123@localhost/noteful-test"
+
+To set up Heroku database in the bash prompt
+
+heroku create
+
+heroku addons:create heroku-postgresql:hobby-dev
+
+heroku pg:credentials:url
+
+Use the credentials to set up a dBeaver database
+
+
 Express Boilerplate!
 This is a boilerplate project used for starting new projects!
 
